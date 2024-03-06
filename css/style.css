@@ -10,11 +10,13 @@ header {
     background: #030303;
     position: fixed;
     display: flex;
+    height: 65px;
     top: 0;
     left: 0;
     right: 0;
     justify-content: space-between;
-    padding: 15px 35px;
+    align-items: center;
+    padding: 0 35px;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
@@ -31,3 +33,51 @@ header a {
     color: #16DCF2;
 }
 
+main {
+    margin-top: 65px;
+}
+
+section {
+    min-height: calc(100vh - 65px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #1C9BE6;
+}
+
+#photo {
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+}
+
+#menu-home {
+    margin-bottom: 12px;
+}
+
+#menu-home ul {
+    display: inline-block;
+}
+
+#menu-home ul li {
+    float: left;
+    padding: 0 20px;
+}
+
+.fa-brands, .fa-solid {
+    font-size: 30px;
+    color: #000;
+    transition: color 0.3s, transform 0.3s;
+    margin: 0 7px; 
+    margin-top: 20px;
+}
+.fa-brands:hover, .fa-solid:hover {
+    color: #1C9BE6; 
+    transform: scale(1.2); 
+}

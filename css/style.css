@@ -61,11 +61,13 @@ h1 {
     margin-bottom: 12px;
 }
 
-#menu-home ul {
+#menu-home ul,
+footer ul {
     display: inline-block;
 }
 
-#menu-home ul li {
+#menu-home ul li,
+footer ul li {
     float: left;
     padding: 0 20px;
 }
@@ -104,3 +106,31 @@ h1 {
     color: #FFF;
 }
 
+.skill-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-item {
+    margin: 20px; 
+    text-align: center;
+    transition: 0.3s;
+}
+
+.skill-item img {
+    width: 80px;
+}
+
+footer {
+    border-top: 1px solid #030303;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer div {
+    margin-bottom: 20px;
+}

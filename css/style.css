@@ -81,3 +81,26 @@ h1 {
     color: #1C9BE6; 
     transform: scale(1.2); 
 }
+
+#aboutMe{
+    background:  url("../img/papelFundo.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.box {
+    max-width: 750px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.box h1 {
+    color: #1C9BE6;
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+.box p {
+    color: #FFF;
+}
+
